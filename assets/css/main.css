@@ -535,7 +535,7 @@ section,
 }
 @media (max-width: 500px) {
   .hero {
-  height: 95vh;
+  height: 100vh;
   }
 }
 /* .hero img {
@@ -1546,10 +1546,11 @@ section,
   }
   .subtext{
     text-align: center;
-    font-size: large;
-    
+    font-size: large;width: 60%;
+    margin: auto;
     font-size: 17px;
     position: relative;
+    padding-top:20px ;
     top: -62px;
     font-family: "Kanit", sans-serif;;
   
@@ -1737,9 +1738,11 @@ section,
       .subtext{
        
         font-size: 15px;
-        font-weight: 300;
+        font-weight: 500;
         position: relative;
         top: 150px;
+        width: 90%;
+        margin: auto;
         
 
         
