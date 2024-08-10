@@ -535,7 +535,7 @@ section,
 }
 @media (max-width: 500px) {
   .hero {
-  height: 80vh;
+  height: 95vh;
   }
 }
 /* .hero img {
@@ -1739,13 +1739,21 @@ section,
         font-size: 15px;
         font-weight: 300;
         position: relative;
-        top: 165px;
+        top: 150px;
         
 
         
       }
       .button{
-        display: none;
+        padding-top: 200px;
+      }
+      .button1{
+        padding: 10px 20px;
+        font-size: 13px;
+      }
+      .join{
+        padding: 8px 25px;
+        font-size: 13px;
       }
       .nodetag{
         display: none;
