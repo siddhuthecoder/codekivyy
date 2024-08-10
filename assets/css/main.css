@@ -2291,3 +2291,36 @@ h3{
   /* line-spacing:0.5; */
   color: #756f6f;
 }
+@media screen and (max-width:500px){
+  .about{
+    position: relative;
+    bottom: 278px;
+  }
+  .resume{
+    position: relative;
+    bottom:278px;
+
+  }
+  /* .outer-container{
+    position: relative;
+    bottom:278px;
+    z-index: 2;
+  } */
+   .portfolio{
+    position: relative;
+    bottom:300px;
+   }
+   .testimonials{
+    position: relative;
+    bottom:350px;
+   }
+   .contact{
+    position: relative;
+    bottom:350px;
+   }
+   .footer{
+    position: relative;
+    bottom:350px;
+   }
+
+}
