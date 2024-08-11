@@ -1491,7 +1491,7 @@ section,
 
 
 .nodeimg{
-    width: 120px;
+    width: 125px;
    }
 .node{
      position:absolute;
@@ -1509,7 +1509,7 @@ section,
    .css{
     margin-top: 8px;
     position: relative;
-    left: 7%;
+    left: 8%;
     top: 30px;
     display: inline-block;
     
@@ -1520,7 +1520,7 @@ section,
   }
   .csstag{
     position: relative;
-    left: 33%;
+    left: -5%;
     font-size: 25px;
     font-family: "Kanit", sans-serif;;
   
@@ -1533,7 +1533,7 @@ section,
     font-weight: 600;
     text-align: center;
     position: relative;
-    bottom: 57px;
+    bottom: 47px;
 
   font-family: "Kanit", sans-serif;;
   
@@ -1562,12 +1562,12 @@ section,
   }
   .subtext{
     text-align: center;
-    font-size: large;width: 60%;
+    font-size: large;width: 50%;
     margin: auto;
     font-size: 17px;
     position: relative;
     padding-top:20px ;
-    top: -62px;
+    top: -35px;
     font-family: "Kanit", sans-serif;;
   
   font-style: normal;
@@ -1576,8 +1576,8 @@ section,
   .python{
     margin-top: 8px;
     position: relative;
-    left: 82%;
-    bottom: 526px;
+    left: 81%;
+    bottom: 440px;
     display: inline-block;
     
     
@@ -1587,7 +1587,7 @@ section,
   }
   .pythontag{
     position: relative;
-    left: 18%;
+    left: 3%;
     font-size: 25px;
     font-family: "Kanit", sans-serif;;
   
@@ -1595,12 +1595,12 @@ section,
     
   }  
   .swiftimg{
-    width: 120px;
+    width: 105px;
    }
    .swift{
     margin-top: 8px;
     position: relative;
-    left: 1%;
+    left: 4%;
     bottom: 240px;
     display: inline-block;
     
@@ -1608,7 +1608,7 @@ section,
   }
   .swifttag{
      position: relative;
-     left: 26%;
+     left:5%;
      font-size: 25px;
      font-family: "Kanit", sans-serif;;
   
@@ -1617,18 +1617,18 @@ section,
    .database{
     margin-top: 8px;
     position: relative;
-    left: 62%;
+    left: 59%;
     bottom: 227px;
     display: inline-block;
     
     
   }
   .databaseimg{
-    width: 120px;
+    width: 105px;
   }
   .databasetag{
     position: relative;
-    left: 20%;
+    left: 1%;
     font-size: 25px;
     font-family: "Kanit", sans-serif;;
   
@@ -1639,8 +1639,8 @@ section,
   .button{
     text-align: center;
     position: relative;
-    bottom: 210px;
-    
+    bottom: 135px;
+  
   }
   .button1{
     color: white;
