@@ -1698,7 +1698,7 @@ section,
   }
   @media only screen and (max-width:700px){
     .nodeimg{
-        width: 70px;
+        width: 75px;
         position: relative;
         top: 40px;
        }
