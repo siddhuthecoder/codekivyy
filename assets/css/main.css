@@ -1793,6 +1793,19 @@ section,
         padding-bottom: 0px;
 
       }
+      .database{
+        position: relative;
+        bottom: 220px;
+      }
+      .swift{
+        position:relative;
+        top: -230px;
+      }
+      .css{
+        position: relative;
+        top: 30px;
+      }
+      
   }
   @media only screen and (max-width:360px){
     .python{
