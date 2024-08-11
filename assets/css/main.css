@@ -1509,8 +1509,8 @@ section,
    .css{
     margin-top: 8px;
     position: relative;
-    left: 8%;
-    top: 30px;
+    left: 12%;
+    top: 78px;
     display: inline-block;
     
     
@@ -1533,7 +1533,7 @@ section,
     font-weight: 600;
     text-align: center;
     position: relative;
-    bottom: 47px;
+    bottom: 29px;
 
   font-family: "Kanit", sans-serif;;
   
@@ -1567,7 +1567,7 @@ section,
     font-size: 17px;
     position: relative;
     padding-top:20px ;
-    top: -35px;
+    top: -29px;
     font-family: "Kanit", sans-serif;;
   
   font-style: normal;
@@ -1577,7 +1577,7 @@ section,
     margin-top: 8px;
     position: relative;
     left: 81%;
-    bottom: 440px;
+    bottom: 380px;
     display: inline-block;
     
     
@@ -1600,8 +1600,8 @@ section,
    .swift{
     margin-top: 8px;
     position: relative;
-    left: 4%;
-    bottom: 240px;
+    left: 9%;
+    bottom: 200px;
     display: inline-block;
     
     
@@ -1618,7 +1618,7 @@ section,
     margin-top: 8px;
     position: relative;
     left: 59%;
-    bottom: 227px;
+    bottom: 197px;
     display: inline-block;
     
     
@@ -1639,7 +1639,7 @@ section,
   .button{
     text-align: center;
     position: relative;
-    bottom: 135px;
+    bottom: 118px;
   
   }
   .button1{
