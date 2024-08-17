@@ -204,12 +204,50 @@
                         </div>
                     </div>
                     <div class="card-button">
-                      <button class='card-button1' id='button'>View Content</button>
+                      <button class='card-button1' id='button2'>View Content</button>
                       <button class='card-join' id='button'>Register Now</button>
                      </div>
                 </div>
             </div>
         </div>
+        <div id="pdfModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe src="" id="pdfFrame" style="width:100%; height:100vh;"></iframe>
+          </div>
+        </div>
+        <script>
+        document.getElementById('button2').onclick = function() {
+    var modal = document.getElementById("pdfModal");
+    var iframe = document.getElementById("pdfFrame");
+    
+    // Set the PDF source
+    iframe.src = './assets/pdfs/CK Basic Topics.pdf';
+    
+    // Display the modal
+    modal.style.display = "block";
+}
+
+// Close the modal when the user clicks on <span> (x)
+document.getElementsByClassName("close")[0].onclick = function() {
+    document.getElementById("pdfModal").style.display = "none";
+}
+
+// Close the modal if the user clicks outside of it
+window.onclick = function(event) {
+  var modal = document.getElementById("pdfModal");
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+        </script>
+        <!-- <script>
+          document.getElementById('button2').onclick = function() {
+              window.open('./assets/pdfs/CK Basic Topics.pdf', '_blank');
+          }
+      </script> -->
+
         <div class="col-lg-4 col-md-6 mb-4 card">
           <div class="rounded overflow-hidden mb-2">
               <img class="img-fluid image" src="assets/img/python-training-institute.webp" alt="">
@@ -228,12 +266,17 @@
                       </div>
                   </div>
                   <div class="card-button">
-                    <button class='card-button1' id='button'>View Content</button>
+                    <button class='card-button1' id='button1'>View Content</button>
                     <button class='card-join' id='button'>Register Now</button>
                    </div>
               </div>
           </div>
       </div>
+      <script>
+        document.getElementById('button1').onclick = function() {
+            window.open('./assets/pdfs/CK Advance Topics.pdf', '_blank');
+        }
+    </script>
       
         <!-- <div class="col-lg-4 col-md-6 mb-4 card">
           <div class="rounded overflow-hidden mb-2">
