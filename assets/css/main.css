@@ -2420,3 +2420,116 @@ h3{
 .row.g-4 {
   margin-top: 2rem;
 }
+
+/* Events Section */
+.events {
+  padding: 60px 0;
+  background: #f8f9fa;
+}
+
+.events .section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.events .section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #2c4964;
+}
+
+.events .section-title p {
+  margin-bottom: 0;
+  color: #777777;
+  font-size: 16px;
+}
+
+.events .event-item {
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.events .event-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.events .event-img {
+  position: relative;
+  overflow: hidden;
+  height: 250px;
+}
+
+.events .event-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.events .event-item:hover .event-img img {
+  transform: scale(1.1);
+}
+
+.events .event-content {
+  padding: 25px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.events .event-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.events .event-info span {
+  color: #777777;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.events .event-info i {
+  color: #1977cc;
+  font-size: 16px;
+}
+
+.events .event-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #2c4964;
+  line-height: 1.4;
+}
+
+.events .event-content p {
+  color: #777777;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .events .event-img {
+    height: 200px;
+  }
+  
+  .events .event-content {
+    padding: 20px;
+  }
+  
+  .events .event-content h3 {
+    font-size: 18px;
+  }
+}
