@@ -2488,7 +2488,8 @@ h3{
 
 .events .event-info {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 8px;
   margin-bottom: 15px;
 }
 
@@ -2497,12 +2498,14 @@ h3{
   font-size: 14px;
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 8px;
+  line-height: 1.4;
 }
 
 .events .event-info i {
   color: #1977cc;
   font-size: 16px;
+  flex-shrink: 0;
 }
 
 .events .event-content h3 {
