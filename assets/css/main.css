@@ -673,40 +673,31 @@ section,
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
-.stats i {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
-  width: 54px;
-  height: 54px;
-  font-size: 24px;
-  border-radius: 50px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  z-index: 1;
+.stats {
+  padding: 40px 0;
+  background: #ffffff;
 }
 
 .stats .stats-item {
-  margin-top: 10px;
-  width: 100%;
-  position: relative;
-  text-align: center;
-  z-index: 0;
+  padding: 20px;
+  background: linear-gradient(145deg, #ffffff, #f8f9fa);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
-.stats .stats-item span {
-  font-size: 36px;
-  display: block;
+.stats .stats-item .student-count {
+  font-size: 2.5rem;
   font-weight: 700;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: #012970;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  padding: 15px 0;
 }
 
-.stats .stats-item p {
-  padding: 0;
-  margin: 0;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
-  font-size: 16px;
+.student-marquee {
+  width: 100%;
+  padding: 15px 0;
 }
 
 /*--------------------------------------------------------------
@@ -2370,4 +2361,62 @@ h3{
   /* line-spacing:0.5; */
   /* color: #756f6f; */
   font-family:'Roboto' ;
+}
+
+.upcoming-card {
+  background: linear-gradient(145deg, #ffffff, #f8f9fa);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.upcoming-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.upcoming-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #4154f1, #FFD700);
+}
+
+.upcoming-content {
+  width: 100%;
+}
+
+.upcoming-content h3 {
+  color: #012970;
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.coming-soon-badge {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: #FFD700;
+  color: #012970;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  box-shadow: 0 2px 8px rgba(255, 215, 0, 0.3);
+}
+
+.row.g-4 {
+  margin-top: 2rem;
 }
