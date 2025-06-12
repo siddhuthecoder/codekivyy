@@ -2520,7 +2520,50 @@ h3{
   color: #777777;
   font-size: 15px;
   line-height: 1.6;
-  margin-bottom: 0;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.events .event-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.events .event-buttons .btn {
+  flex: 1;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.events .event-buttons .btn-primary {
+  background: #1977cc;
+  color: #ffffff;
+}
+
+.events .event-buttons .btn-primary:hover {
+  background: #1565c0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(25, 119, 204, 0.3);
+}
+
+.events .event-buttons .btn-outline-primary {
+  background: transparent;
+  color: #1977cc;
+  border: 2px solid #1977cc;
+}
+
+.events .event-buttons .btn-outline-primary:hover {
+  background: #1977cc;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(25, 119, 204, 0.3);
 }
 
 @media (max-width: 768px) {
@@ -2534,5 +2577,13 @@ h3{
   
   .events .event-content h3 {
     font-size: 18px;
+  }
+
+  .events .event-buttons {
+    flex-direction: column;
+  }
+  
+  .events .event-buttons .btn {
+    width: 100%;
   }
 }
